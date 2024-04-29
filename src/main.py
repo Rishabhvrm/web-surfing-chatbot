@@ -27,14 +27,15 @@ def render_ui():
 def set_api_keys():
     '''
     Allows users to input their API keys and sets them as environment variables.
+    OR set keys as Environment variables instead of taking them as input
     '''
     with st.sidebar:
         st.header("Do this first!")
         openai_api_key = st.text_input("Enter OpenAI API Key", type="password")
         serpapi_api_key = st.text_input("Enter SerpAPI API Key", type="password")
         
-        "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
-        "[Get an SERP API key](https://serpapi.com/)"
+        "[Get OpenAI API key](https://platform.openai.com/account/api-keys)"
+        "[Get SERP API key](https://serpapi.com/)"
         "[View the source code](https://github.com/Rishabhvrm/web-surfing-chatbot)"
 
         os.environ["OPENAI_API_KEY"] = openai_api_key
