@@ -2,7 +2,9 @@
 ## 🚀 A streamlit chatbot powered by 🦜🔗 LangChain, SerpAPI, and OpenAI LLM"
 
 ---
-A LLM based ChatBot that allows users to ask questions and get real-time answers by searching the web using OpenAI, LangChain and SERPAPI.
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://web-surfing-chatbot.streamlit.app/)
+
+An LLM based ChatBot that allows users to ask questions and get real-time answers by searching the web using OpenAI, LangChain, and SERPAPI.
 
 ## Overview
 
